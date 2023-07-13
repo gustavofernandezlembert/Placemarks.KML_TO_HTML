@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Output</title>
+    <style>
+        table {
+            width: 25%;
+            border-collapse: collapse;
+            font-family: Arial, Arial;
+            font-size: 7px;
+        }
+        
+        th {
+            background-color: #B84A00;
+            color: #ffffff;
+            padding: 5px;
+        }
+        
+        td {
+            border: 1px solid #dddddd;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pole Info</h1>
+    <table>
+        <tr>
+            <th>Pole</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+        </tr>
+        {% for item in data %}
+        <tr>
+            <td>{{ item[0] }}</td>
+            <td>{{ item[1] }}</td>
+            <td>{{ item[2] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

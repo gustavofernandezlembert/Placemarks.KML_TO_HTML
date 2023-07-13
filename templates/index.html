@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KML to Table Coverter</title>
+    
+</head>
+<body>
+    <h1>KML to Table Coverter</h1>
+    <div>
+        <p>        
+	This app converts KML files containing Google Earth placemarks to a table format. Upload a KML file using the form below, and the app will generate a table displaying the pole names and their corresponding coordinates.
+        </p>
+    </div>
+    <form method="POST" action="/convert" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".kml">
+        <input type="submit" value="Convert">
+    </form>
+</body>
+</html>
