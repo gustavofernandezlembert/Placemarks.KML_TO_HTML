@@ -1,5 +1,5 @@
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8157523.svg)](https://doi.org/10.5281/zenodo.8157523)
+10.5281/zenodo.8173447
 
 # KML to HTML Table Converter
 
